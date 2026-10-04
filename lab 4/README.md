@@ -1,7 +1,20 @@
 # Distributed Task Offloading & Remote Rendering System
 
 **Course:** CSC-334 Parallel and Distributed Computing
-**Author:** _your name / roll number_
+**Author:** M SHEHRYAR KHAN / FA23-BSE-057
+
+## Screenshots
+
+<img width="675" height="383" alt="Screenshot 2026-10-04 162630" src="https://github.com/user-attachments/assets/c1e959cf-4e71-4eda-9cf7-0b156f560c86" />
+
+<img width="1366" height="728" alt="Capture" src="https://github.com/user-attachments/assets/bd699fc5-fa82-41d6-b182-1015edebf741" />
+
+<img width="1366" height="728" alt="1" src="https://github.com/user-attachments/assets/0d0b3926-ad5e-470d-83ea-c4d6e5407804" />
+
+<img width="1366" height="728" alt="2" src="https://github.com/user-attachments/assets/6deebcc0-c69b-45d9-bd4b-08e1d459e048" />
+
+<img width="381" height="234" alt="3" src="https://github.com/user-attachments/assets/bcecdf2c-2656-43d3-a134-37bf3394b2d4" />
+
 
 A client–server system that offloads video transcoding from a client laptop to a remote worker node over a local network. The client picks a video and sets the quality in a desktop GUI. The worker encodes it with FFmpeg and streams live progress back. The client then downloads the result, checks its integrity, and compares the time with rendering locally.
 
@@ -126,12 +139,6 @@ _Add here: the upload / encode / download breakdown from the log, and the benchm
 - Whole files are transferred. Pipelining the upload with the encode would reduce latency.
 - One job is encoded at a time by default (`--workers N` allows more).
 
-## Screenshots
 
-_Add these to `docs/screenshots/` and link them here:_
 
-![Connection test](docs/screenshots/connection.png)
-![Render in progress](docs/screenshots/progress.png)
-![Completed render log](docs/screenshots/done.png)
-![Server console](docs/screenshots/server.png)
-![Benchmark chart](results/speedup.png)
+
